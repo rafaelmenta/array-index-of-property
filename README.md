@@ -5,6 +5,11 @@ A helpful function to find object index by one of its properties
 
 ---
 
+## Installation
+
+  - Node.js : `npm install array-index-of-property --save-dev`
+  - Bower : `bower install array-index-of-property --save`
+
 ## Usage
 
   This package adds a `indexOfProperty` function to retrieve an object index given a value for any of its properties.
