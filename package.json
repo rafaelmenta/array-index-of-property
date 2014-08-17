@@ -1,0 +1,25 @@
+{
+  "name": "array-index-of-property",
+  "version": "0.0.1",
+  "description": "A helpful function to find object index by one of its properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelmenta/array-index-of-property/"
+  },
+  "keywords": [
+    "Array",
+    "Prototype",
+    "Property",
+    "Index"
+  ],
+  "author": "Rafael Guedes",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "chai": "~1.9.1"
+  }
+}

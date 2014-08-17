@@ -1,0 +1,24 @@
+{
+  "name": "array-index-of-property",
+  "version": "0.0.1",
+  "authors": [
+    "Rafael Guedes <rafaelmenta@gmail.com>"
+  ],
+  "description": "A helpful function to find object index by one of its properties",
+  "main": "index.js",
+  "keywords": [
+    "Array",
+    "Prototype",
+    "Property",
+    "Index"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rafaelmenta/array-index-of-property",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
