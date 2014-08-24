@@ -1,6 +1,6 @@
 {
   "name": "array-index-of-property",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A helpful function to find object index by one of its properties",
   "main": "index.js",
   "scripts": {
