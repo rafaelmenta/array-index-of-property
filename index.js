@@ -11,7 +11,11 @@
   };
 
   if (!Array.prototype.indexOfProperty) {
-    Array.prototype.indexOfProperty = indexOfProperty;
+    Object.defineProperty(Array.prototype, 'indexOfProperty', {
+      enumerable: false,
+      writable: true,
+      value: indexOfProperty
+    });
   }
 
 }(this));
