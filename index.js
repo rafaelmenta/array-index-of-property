@@ -2,8 +2,13 @@
 
   var indexOfProperty = function(property, value) {
     var length = this.length;
+    var properties = property.split('.');
     for (var i = 0; i < length; ++i) {
-      if (this[i][property] === value) {
+      var item = properties.reduce(function(soFar, prop) {
+        return soFar[prop];
+      }, this[i]);
+
+      if (item === value) {
         return i;
       }
     }

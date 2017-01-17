@@ -32,4 +32,9 @@ describe('Array#indexOfProperty', function() {
     a.indexOfProperty('b', 'c').should.equals(2);
   });
 
+  it('should find nested properties', function() {
+    var a = [{ a : { b : 2}}, { a : { b: 3}}];
+    a.indexOfProperty('a.b', 3).should.equals(1);
+  })
+
 });
